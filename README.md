@@ -37,6 +37,6 @@ This is how to install the layout on my system (Arch in 2017), so you will maybe
        colemak cz: Czech (Colemak, Czech letters)
    .
        
-2.  As root, add content of [colemak](colemak) at the end of `/usr/share/X11/xkb/symbols/cz`.
+2.  As root, add content of [cs_colemak](cs_colemak) at the end of `/usr/share/X11/xkb/symbols/cz`.
 
 3. Restart X.Org.
