@@ -30,7 +30,7 @@ I placed Czech letters with diacritics to AltGr layer, as close to their corresp
 
 ## Instalation
 
-This is how to install the layout on my system (Arch in 2017), so you may have to search for the xkb directory somwhere else in `/usr` or `/etc`.
+This is how to install the layout on my systems, so you may have to search for the xkb directory somewhere else in `/usr` or `/etc`.
 
 1. As root, to `/usr/share/X11/xkb/rules/xorg.lst`, under line `! variant`, add  
       ``` colemak cz: Czech (Colemak, Czech letters)```.
