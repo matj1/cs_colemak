@@ -45,7 +45,7 @@ xkb_symbols "colemak" {
 	key <AC11> { [   apostrophe,     quotedbl,          otilde,           Otilde ] };
 
 	key <AB01> { [            z,            Z,          zcaron,           Zcaron ] };
-	key <AB02> { [            x,            X, dead_circumflex,       asciitilde ] };
+	key <AB02> { [            x,            X, dead_circumflex,            U017F ] };
 	key <AB03> { [            c,            C,          ccaron,           Ccaron ] };
 	key <AB04> { [            v,            V,          oslash,           Oslash ] };
 	key <AB05> { [            b,            B,      dead_breve,       asciitilde ] };

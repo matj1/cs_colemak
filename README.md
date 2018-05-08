@@ -14,7 +14,7 @@ I placed Czech letters with diacritics to AltGr layer, as close to their corresp
 
 * English quotation marks are replaced by Czech quotation marks. English right quotation mark is under `;`, so it's under English left quotation mark (Czech right quotation mark).
 
-* I added some characters that sometimes come in handy, namely `…`, `〈` and `〉`, also to reduce total number of tildes.
+* I added some characters that sometimes come in handy, namely `…`, `ſ`, `〈` and `〉`, also to reduce total number of tildes.
 
 * To AltGr + Space, I assigned non-breaking space.
 
@@ -26,14 +26,14 @@ I placed Czech letters with diacritics to AltGr layer, as close to their corresp
     
           aAáÁ  rRřŘ  sSšŠ  tT´`  dD¨˝  hHˇ~  nNěĚ  eEéÉ  iIíÍ  oOóÓ  '"õÕ  \|…~
     
-    -_–—  zZžŽ  xX^~  cCčČ  vVøØ  bB˘~  kK°~  mM¯˛  ,<¸〈  .>˙〉  /?¿~
+    -_–—  zZžŽ  xX^ſ  cCčČ  vVøØ  bB˘~  kK°~  mM¯˛  ,<¸〈  .>˙〉  /?¿~
 
 ## Instalation
 
 This is how to install the layout on my system (Arch in 2017), so you may have to search for the xkb directory somwhere else in `/usr` or `/etc`.
 
 1. As root, to `/usr/share/X11/xkb/rules/xorg.lst`, under line `! variant`, add  
-      ``` colemak cz: Czech (Colemak, Czech letters)```.
+      ```  colemak         cz: Czech (Colemak, Czech letters)```.
        
 2.  As root, add content of [cs_colemak](cs_colemak) at the end of `/usr/share/X11/xkb/symbols/cz`.
 
