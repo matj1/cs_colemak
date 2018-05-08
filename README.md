@@ -2,7 +2,7 @@
 
 Colemak layout modified so Czech letters are accessible more easily.
 
-Available for Linux distros only, I had the layout also For Windows, but it's gone now because I uninstalled Windows.
+Available for X Window System only, I had the layout also For Windows, but it's gone now because I uninstalled Windows.
 
 I placed Czech letters with diacritics to AltGr layer, as close to their corresponding letters without diacritics (original letters). I moved some characters to make space for Czech letters. I replaced Englich quotation marks with Czech quotation marks. I also added some characters to reduce total amount of tildes and made it a bit easier to type non-breaking space.
 
@@ -37,4 +37,4 @@ This is how to install the layout on my systems, so you may have to search for t
        
 2.  As root, add content of [cs_colemak](cs_colemak) at the end of `/usr/share/X11/xkb/symbols/cz`.
 
-3. Restart X.Org.
+3. Restart X.
