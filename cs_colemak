@@ -28,8 +28,8 @@ xkb_symbols "colemak" {
 	key <AD08> { [            u,            U,          uacute,           Uacute ] };
 	key <AD09> { [            y,            Y,          yacute,           Yacute ] };
 	key <AD10> { [    semicolon,        colon, rightdoublequotemark, rightsinglequotemark ] };
-	key <AD11> { [  bracketleft,    braceleft,   guillemotleft,        0x1002039 ] };
-	key <AD12> { [ bracketright,   braceright,  guillemotright,        0x100203a ] };
+	key <AD11> { [  bracketleft,    braceleft,   guillemotleft,            U2039 ] };
+	key <AD12> { [ bracketright,   braceright,  guillemotright,            U203A ] };
 	key <BKSL> { [    backslash,          bar,        ellipsis,       asciitilde ] };
 
 	key <AC01> { [            a,            A,          aacute,           Aacute ] };
