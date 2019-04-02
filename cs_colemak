@@ -37,7 +37,7 @@ xkb_symbols "colemak" {
 	key <AC03> { [            s,            S,          scaron,           Scaron ] };
 	key <AC04> { [            t,            T,      dead_acute,       dead_grave ] };
 	key <AC05> { [            d,            D,  dead_diaeresis, dead_doubleacute ] };
-	key <AC06> { [            h,            H,      dead_caron,       asciitilde ] };
+	key <AC06> { [            h,            H,      dead_caron,      dead_stroke ] };
 	key <AC07> { [            n,            N,          ecaron,           Ecaron ] };
 	key <AC08> { [            e,            E,          eacute,           Eacute ] };
 	key <AC09> { [            i,            I,          iacute,           Iacute ] };

@@ -24,7 +24,7 @@ I placed Czech letters with diacritics to AltGr layer, as close to their corresp
     
           qQäÄ  wWåÅ  fFãÃ  pPæÆ  gGœŒ  jJđĐ  lLůŮ  uUúÚ  yYýÝ  ;:”’  [{«‹  ]}»›
     
-          aAáÁ  rRřŘ  sSšŠ  tT´`  dD¨˝  hHˇ~  nNěĚ  eEéÉ  iIíÍ  oOóÓ  '"õÕ  \|…~
+          aAáÁ  rRřŘ  sSšŠ  tT´`  dD¨˝  hHˇ/  nNěĚ  eEéÉ  iIíÍ  oOóÓ  '"õÕ  \|…~
     
     -_–—  zZžŽ  xX^ſ  cCčČ  vVøØ  bB˘~  kK°~  mM¯˛  ,<¸〈  .>˙〉  /?¿~
 
