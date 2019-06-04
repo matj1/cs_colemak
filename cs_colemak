@@ -20,7 +20,7 @@ xkb_symbols "colemak" {
 
 	key <AD01> { [            q,            Q,      adiaeresis,       Adiaeresis ] };
 	key <AD02> { [            w,            W,           aring,            Aring ] };
-	key <AD03> { [            f,            F,          atilde,           Atilde ] };
+	key <AD03> { [            f,            F,           ssharp,           U1E9E ] };
 	key <AD04> { [            p,            P,              ae,               AE ] };
 	key <AD05> { [            g,            G,              oe,               OE ] };
 	key <AD06> { [            j,            J,         dstroke,          Dstroke ] };
