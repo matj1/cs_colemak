@@ -14,7 +14,7 @@ I placed Czech letters with diacritics to AltGr layer, as close to their corresp
 
 * English quotation marks are replaced by Czech quotation marks. English right quotation mark is under `;`, so it's under English left quotation mark (Czech right quotation mark).
 
-* I added some characters that sometimes come in handy, namely `…`, `ſ`, `〈` and `〉`, also to reduce total number of tildes.
+* I added some characters that sometimes come in handy, namely `…`, `ſ`, `〈` and `〉`, and others, also to reduce total number of tildes.
 
 * To AltGr + Space, I assigned non-breaking space.
 
