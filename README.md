@@ -37,4 +37,4 @@ This is how to install the layout on my systems, so you may have to search for t
        
 2.  As root, add content of [cs_colemak](cs_colemak) at the end of `/usr/share/X11/xkb/symbols/cz`.
 
-3. Restart X.org.
+Additional steps are needed to integrate the layout into Gnome, I don't know which ones exactly. See my [comment on Reddit](https://www.reddit.com/r/gnome/comments/b5o6tx/add_custom_keyboard_layout_to_gnome/eju2mm6/?context=8&depth=9).
