@@ -2,7 +2,7 @@
 
 Colemak layout modified so Czech letters are accessible more easily.
 
-Available for X Window System only, I had the layout also For Windows, but it's gone now because I uninstalled Windows.
+Available for X keyboard extension and Windows. The Windows version does't have caps-lock working as a backspace
 
 I placed Czech letters with diacritics to AltGr layer, as close to their corresponding letters without diacritics (original letters). I moved some characters to make space for Czech letters. I replaced Englich quotation marks with Czech quotation marks. I also added some characters to reduce total amount of tildes and made it a bit easier to type non-breaking space.
 
@@ -30,11 +30,20 @@ I placed Czech letters with diacritics to AltGr layer, as close to their corresp
 
 ## Instalation
 
-This is how to install the layout on my systems, so you may have to search for the xkb directory somewhere else in `/usr` or `/etc`.
+### XKB
 
-1. As root, to `/usr/share/X11/xkb/rules/xorg.lst`, under line `! variant`, add  
-      ```  colemak         cz: Czech (Colemak, Czech letters)```.
-       
+1. As root, to `/usr/share/X11/xkb/rules/xorg.lst`, under line `! variant`, add `  colemak         cz: Czech (Colemak, Czech letters)`.
+
 2.  As root, add content of [cs_colemak](cs_colemak) at the end of `/usr/share/X11/xkb/symbols/cz`.
 
 Additional steps are needed to integrate the layout into Gnome, I don't know which ones exactly. See my [comment on Reddit](https://www.reddit.com/r/gnome/comments/b5o6tx/add_custom_keyboard_layout_to_gnome/eju2mm6/?context=8&depth=9).
+
+I recommend creating another symbols file and adding this layout there. I did this by copying `/usr/share/X11/xkb/symbols/cz` and deleting all other variants from the file. This way the layout won't be deleted when Xorg updates.
+
+The layout is added as variant colemak of the keyboard layout, which symbols file it's in (cz if only steps 1 and 2 were folowed in this section).
+
+### Windows
+
+Compile [cs_colemak.klc](cs_colemak.klc) in Microsoft [Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=22339) and run `setup.exe` from the output files.
+
+The layout is added as a Czech variant called Colemak opt. for Czech.
