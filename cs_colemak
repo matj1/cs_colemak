@@ -51,11 +51,11 @@ xkb_symbols "colemak" {
 	key <AB05> { [            b,            B,      dead_breve,       asciitilde ] };
 	key <AB06> { [            k,            K,  dead_abovering,       asciitilde ] };
 	key <AB07> { [            m,            M,     dead_macron,      dead_ogonek ] };
-	key <AB08> { [        comma,         less,    dead_cedilla, leftanglebracket ] };
-	key <AB09> { [       period,      greater,   dead_abovedot, rightanglebracket ] };
+	key <AB08> { [        comma,         less,    dead_cedilla,            U27E8 ] };
+	key <AB09> { [       period,      greater,   dead_abovedot,            U27E9 ] };
 	key <AB10> { [        slash,     question,    questiondown,       asciitilde ] };
 
-	key <CAPS> { [    BackSpace,    BackSpace,       BackSpace,        BackSpace ] };
+	//key <CAPS> { [    BackSpace,    BackSpace,       BackSpace,        BackSpace ] };
 	key <LSGT> { [        minus,   underscore,          endash,           emdash ] };
 	key <SPCE> { [        space,        space,    nobreakspace,     nobreakspace ] };
 
