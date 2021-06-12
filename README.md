@@ -2,9 +2,9 @@
 
 Colemak layout modified so Czech letters are accessible more easily.
 
-Available for X keyboard extension and Windows. The Windows version does't have caps-lock working as a backspace
+Available for X keyboard extension on Linux and for Windows. The Windows version is not updated because I don't have a Windows system where I could test it.
 
-I placed Czech letters with diacritics to AltGr layer, as close to their corresponding letters without diacritics (original letters). I moved some characters to make space for Czech letters. I replaced Englich quotation marks with Czech quotation marks. I also added some characters to reduce total amount of tildes and made it a bit easier to type non-breaking space.
+I placed Czech letters with diacritics to AltGr layer, as close to their corresponding letters without diacritics (original letters). I moved some characters to make space for Czech letters. I replaced Englich quotation marks with Czech quotation marks. I also added some characters to reduce total amount of tildes and made it a bit easier to type non-breaking space. I commented out the line mapping Caps Lock to Backspace because I don't use it, but everyone who wants to use it can uncomment it.
 
 ## Important changes
 
