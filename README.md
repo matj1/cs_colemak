@@ -36,7 +36,7 @@ I placed Czech letters with diacritics to AltGr layer, as close to their corresp
 
 2.  As root, add content of [cs_colemak](cs_colemak) at the end of `/usr/share/X11/xkb/symbols/cz`.
 
-Additional steps are needed to integrate the layout into Gnome. Follow [this guide](https://blog.stigok.com/2020/10/27/from-x11-xmodmap-to-wayland-xkb-custom-keyboard-layout.html) to add the layout to Gnome. It works in Wayland too.
+Additional steps are needed to integrate the layout into Gnome. Follow [this guide](https://blog.stigok.com/2020/10/27/from-x11-xmodmap-to-wayland-xkb-custom-keyboard-layout.html) to add the layout to Gnome. It works in Wayland too. If the link doesn't work, read [its snapshot on Wayback Machine](https://web.archive.org/web/20210717104133/https://blog.stigok.com/2020/10/27/from-x11-xmodmap-to-wayland-xkb-custom-keyboard-layout.html).
 
 #### Alternative
 
