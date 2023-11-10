@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xkbConfigRegistry SYSTEM "xkb.dtd">
+<xkbConfigRegistry version="1.1">
+  <layoutList>
+    <layout>
+      <configItem>
+        <name>cz</name>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>colemak</name>
+            <shortDescription>Colemak</shortDescription>
+            <description>Czech (Colemak)</description>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
+  </layoutList>
+</xkbConfigRegistry>
